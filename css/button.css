@@ -1,9 +1,8 @@
-
-.button-box {
+.form-item-button {
     margin: 37px auto 53px;
 }
 
-.button-box>button {
+.form-item-button>button {
     width: 340px;
     height: 62px;
     border-radius: 31px;

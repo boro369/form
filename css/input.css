@@ -7,8 +7,9 @@ input::placeholder {
     color:#A2A2A2;
 }
 
-.form-item-input>div>input,
-.form-item-input>div>select {
+.item-name>input,
+.item-email>input,
+.item-pasword>input {
     height: 50px;
     background-color: #F5F8FA;
     border-radius: 8px;

@@ -1,0 +1,19 @@
+select#country {
+    margin: auto;
+    width: 340px;
+    height: 50px;
+    display: block;
+    outline: none;
+    font-size: 14px;
+    color: #A2A2A2;
+    background-color: #F5F8FA;
+    border-radius: 8px;
+    border: none;
+}
+
+select#country>option {
+    background-color: #FFFFFF ;
+    color: #222222;
+    border-radius: 8px;
+    max-height: 200px;
+}
