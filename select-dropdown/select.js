@@ -43,5 +43,9 @@ $("select").each(function () {
         $styledSelect.removeClass("active");
         $list.hide();
     });
+
+    if ($(".select-options").height() >= 200) {
+        $(".select-options").css('overflowY','scroll');
+    };
 });
   

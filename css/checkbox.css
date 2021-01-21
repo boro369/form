@@ -1,3 +1,8 @@
+.form-item-checkbox {
+    width: 340px;
+    margin: auto;
+}
+
 .checkbox-custom {
     display: none;
 }

@@ -23,9 +23,6 @@
     bottom: 0;
     left: 0;
     padding: 15px 15px;
-    -moz-transition: all 0.2s ease-in;
-    -o-transition: all 0.2s ease-in;
-    -webkit-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
 }
 
@@ -64,6 +61,8 @@
     background-color: #FFFFFF ;
     box-shadow: 0px 3px 8px #00000026;
     border-radius: 8px;
+    max-height: 200px;
+    /* overflow-y: scroll; */
 }
 
 .select-options li {
@@ -71,9 +70,6 @@
     padding: 12px 0;
     text-indent: 15px;
     border-top: 1px solid #FFFFFF ;
-    -moz-transition: all 0.15s ease-in;
-    -o-transition: all 0.15s ease-in;
-    -webkit-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;
     color: #000000;
 }

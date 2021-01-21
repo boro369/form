@@ -3,21 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/radio.css">
     <link rel="stylesheet" href="css/checkbox.css">
     <link rel="stylesheet" href="css/button.css">
     <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/error-msg.css">
     <link rel="stylesheet" href="select-dropdown/select.css">
     <title>Form</title>
 </head>
 <body>
     <div class="container">
-        <div class="main-block">
-            <div class="title">
+        <div class="form">
+            <div class="form-title">
                 <span>Create a new account</span>
             </div>
-            <div class="input">
+            <div class="form-item-input">
                 <div class="name">
                     <input type="text" class="input-name" placeholder="Enter your name">
                     <div class="error-message">Please enter a valid name</div>
@@ -30,28 +31,32 @@
                     <input type="password" class="input-pswd" placeholder="Password">
                     <div class="error-message">Please enter a valid name</div>
                 </div>
-                <div class="conutry-list">
+                <div class="form-item-select">
                     <select id="country" name="countrylist" title="Select country">
                         <option value="hide">Select country</option>
                         <option value="armenia">Armenia</option>
                         <option value="russia">Russia</option>
                         <option value="africa">Africa</option>
+                        <option value="us">US</option>
+                        <option value="canada">Canada</option>
+                        <option value="france">France</option>
+                        <option value="german">German</option>
                     </select>
                     <div class="error-message">Please enter a valid name</div>
                 </div>
             </div>
-            <div class="gender">
-                <div class="gender-male">
+            <div class="form-item-radio">
+                <div class="radio-male">
                     <input type="radio" id="male" name="gender" value="male">
                     <label for="male">Male</label>
                 </div>
-                <div class="gender-female">
+                <div class="radio-female">
                     <input type="radio" id="female" name="gender" value="female">
                     <label for="female">Female</label>
                 </div>
                 <div class="error-message">Please enter a valid name</div>
             </div>
-            <div class="policies">
+            <div class="form-item-checkbox">
                 <input type="checkbox" id="policie" class="checkbox-custom">
                 <label for="policie" class="checkbox-custom-label">Accept terms and conditions</label>
                 <div class="error-message">Please enter a valid name</div>

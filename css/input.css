@@ -1,9 +1,14 @@
-::placeholder {
+.form-item-input {
+    width: 340px;
+    margin: auto;
+}
+
+input::placeholder {
     color:#A2A2A2;
 }
 
-.input>div>input,
-.input>div>select {
+.form-item-input>div>input,
+.form-item-input>div>select {
     height: 50px;
     background-color: #F5F8FA;
     border-radius: 8px;
